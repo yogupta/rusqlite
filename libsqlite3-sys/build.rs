@@ -344,7 +344,7 @@ fn lib_name() -> &'static str {
     if cfg!(any(feature = "sqlcipher", feature = "bundled-sqlcipher")) {
         "sqlcipher"
     } else {
-        "sqlite3"
+        "sqlite"
     }
 }
 
